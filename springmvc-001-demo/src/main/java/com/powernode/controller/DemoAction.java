@@ -21,6 +21,7 @@ public class DemoAction {
     @RequestMapping("/demo.action")
     public String demo(){
         System.out.println("陈阵真帅");
+        System.out.println("hello git");
         System.out.println("服务器被访问到了...");
         return "main";  //可以直接跳到/admin/main.jsp页面上
     }
