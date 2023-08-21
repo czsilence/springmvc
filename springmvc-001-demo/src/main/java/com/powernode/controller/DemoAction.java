@@ -27,6 +27,7 @@ public class DemoAction {
         System.out.println("hot-fix test");
         System.out.println("服务器被访问到了...");
         System.out.println("push test");
+        System.out.println("pull test");
         return "main";  //可以直接跳到/admin/main.jsp页面上
     }
 }
